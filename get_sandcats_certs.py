@@ -6,6 +6,7 @@ __license__ = "MIT"
 import os
 import json
 import shutil
+import subprocess
 from os.path import join, exists, isdir, splitext, split, sep
 
 def parse_arguments():
